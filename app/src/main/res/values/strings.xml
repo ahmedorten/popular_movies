@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detail">Movie Details</string>
+
+    <!-- API key -->
+    <string name="movie_api_key">965971d349f543efcef9ec7080efabce</string>
+
+    <string name="review_heading">Reviews:</string>
+    <string name="trailer_heading">Trailers:</string>
+
+    <string name="prefs_sort_label">Sort by...</string>
+    <string name="prefs_sort_key">prefs_sort_key</string>
+    <string name="prefs_sort_default">popularity.desc</string>
+
+    <string-array name="prefs_sort_list">
+        <item>Most Popular</item>
+        <item>Highest Rated</item>
+        <item>Favorites</item>
+    </string-array>
+
+    <string-array name="prefs_sort_values">
+        <item>popularity.desc</item>
+        <item>vote_average.desc</item>
+        <item>Favorites</item>
+    </string-array>
+
+    <string name="poster_base_url">http://image.tmdb.org/t/p/w185</string>
+    <string name="vote_suffix"> / 10</string>
+    <string name="synopsis_not_available">Plot synopsis not available.</string>
+
+    <string name="favorite_button_text_mark">MARK AS FAVORITE</string>
+    <string name="favorite_button_text_remove">REMOVE FROM FAVORITES</string>
+    <string name="favorites_sort_param">Favorites</string>
+    <string name="movie_base_url">https://api.themoviedb.org/3/discover/movie?</string>
+    <string name="rating_trailer_base_url">https://api.themoviedb.org/3/movie</string>
+
+    <string name="youtube_base_url">http://www.youtube.com/watch</string>
+
+</resources>
